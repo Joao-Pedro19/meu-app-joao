@@ -24,7 +24,7 @@ function Hero(){
     </div>
   )
 }
-function Buton(){
+function Contador(){
   const [count, setCount] = useState(0)
   return(
     <button
@@ -133,7 +133,7 @@ function App() {
       <section id="center">
         <Hero />
         <Title />
-        <Buton />
+        <Contador />
       </section>
 
       <div className="ticks"></div>
