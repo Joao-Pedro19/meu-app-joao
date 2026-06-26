@@ -12,7 +12,7 @@ function Painel() {
         <Link to="sobre">
           Sobre
         </Link>
-        <Link to="Contato">
+        <Link to="contato">
           Contato
         </Link>
       </nav>
