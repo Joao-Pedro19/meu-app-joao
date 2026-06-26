@@ -3,6 +3,7 @@ import { Routes, Route, Link }
 import {Home}    from './pages/Home';
 import {Sobre}   from './pages/Sobre';
 import {Contato} from './pages/Contato';
+import { Painel } from './pages/Painel';
 import './App.css'
 
 
@@ -14,19 +15,18 @@ function App() {
   return (
     <>
       <div>
-      <nav>
-        <Link to="/">Home </Link>
-        <Link to="/sobre">Sobre </Link>
-        <Link to="/contato">Contato</Link>
-      </nav>
+      
+      <Painel />
 
       <Routes>
-        <Route path="/"
+        <Route path="/home"
           element={<Home />} />
         <Route path="/sobre"
           element={<Sobre />} />
         <Route path="/contato"
           element={<Contato />} />
+        <Route path="*"
+          element={'Pagina Não Encontrada ERRO:404'} />
       </Routes>
     </div>
     </>
