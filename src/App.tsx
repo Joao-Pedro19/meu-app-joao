@@ -1,4 +1,4 @@
-import { Routes, Route, Link }
+import { Routes, Route, Link, data }
   from 'react-router-dom';
 import {Home}    from './pages/Home';
 import {Sobre}   from './pages/Sobre';
@@ -10,7 +10,6 @@ import './App.css'
 
 
 function App() {
-  
 
   return (
     <>
