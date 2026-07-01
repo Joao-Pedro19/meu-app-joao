@@ -6,13 +6,13 @@ function Painel() {
     <div>
       
       <nav>
-        <Link to="/home">
+        <Link to="/home"><br/>
         Home
         </Link>
-        <Link to="sobre">
+        <Link to="sobre"><br/>
           Sobre
         </Link>
-        <Link to="contato">
+        <Link to="contato"><br/>
           Contato
         </Link>
       </nav>
